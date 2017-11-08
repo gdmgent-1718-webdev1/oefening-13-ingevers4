@@ -5,8 +5,10 @@ $cars = array
     array("Saab", 22, 36, 58),
     array("Volkswagen", 12, 45, 57),
     array("BMW", 12, 23, 35),
-    array("Sköda", 12, 55, 67)
+    array("Skoda", 12, 55, 67)
 );
+
+sort($cars);
 
 ?>
 <!DOCTYPE html>
@@ -38,7 +40,7 @@ $cars = array
         }
 
         echo ('</tr>');
-        
+
         }
 
     ?>
